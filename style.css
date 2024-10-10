@@ -1,0 +1,287 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open sans", sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: #16423c;
+  position: relative;
+}
+
+.menu {
+  float: right;
+}
+
+.marbot {
+  margin-bottom: 25%;
+  margin-top: 25%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 80px;
+  position: relative;
+  position: -webkit-sticky;
+  top: 0;
+
+  background: #ffffff;
+  border-bottom: 1px solid #16423c;
+}
+
+
+.marbot-header {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  background-color: #ffffff;
+}
+
+.margin-section {
+  margin: 3%;
+}
+
+.padding-section {
+  padding: 5%;
+}
+
+.bg-button {
+  background-color: #16423c;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812) {
+  .flex-center {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #16423c;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #16423c;
+  width: 100%;
+  line-height: 50px;
+}
+
+p {
+  font-family: Courier;
+  font-weight: 50;
+  font-size: 20px;
+  color: #16423c;
+}
+a.tbl-biru {
+  background: #6a9c89;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #909090;
+  text-decoration: 0;
+}
+
+a.tbl-pink {
+  background: #6a9c89;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background: #909090;
+  text-decoration: 0;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+.styles-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-antrian {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-antrian img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.kartu-antrian p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #16423c;
+}
+
+.partners-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partners {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partners img {
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#contact {
+  background: #909090;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #16423c;
+  line-height: 50px;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+@media screen and (max-widht: 991.98px) { 
+  .wrapper {
+    width: 90%;
+  }
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+  nav .menu ul {
+    text-align: center;
+    text-align: center;
+    line-height: 60px;
+  }
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+  section {
+    display: block;
+  }
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .kartu-antrian img {
+    width: 50%;
+  }
+
+  .kartu-partners {
+    width: 50%;
+  }
+}
+

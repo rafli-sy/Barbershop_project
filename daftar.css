@@ -1,0 +1,28 @@
+.marbot{
+    margin-bottom: 25%;
+    margin-top: 25%;
+}
+
+.marbot-header {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.margin-section {
+    margin: 3%;
+}
+
+.padding-section {
+    padding: 5%;
+}
+
+.bg-button {
+    background-color: #16423C;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812){
+    .flex-center {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
